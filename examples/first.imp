@@ -1,0 +1,17 @@
+fun foo(var x, var y) {
+  var z = add(x, y);
+  return z;
+  }
+
+fun bar() {
+    loop(x) {
+      return x;
+    }
+  }
+
+
+fun baz(var y) {
+    zap(y, 10, 'c', "baz");
+    var y = bar();
+    return y;
+  }
